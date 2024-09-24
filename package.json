@@ -20,8 +20,9 @@
     "swiper": "^11.1.14",
     "web-vitals": "^2.1.4"
   },
-    "scripts": {
-    "build": "react-scripts build",
+    "scripts": {"build": {
+    "command": "npm install --legacy-peer-deps && npm run build"
+  }
     "start": "react-scripts start",
     "test": "react-scripts test",
     "install": "npm install --legacy-peer-deps"
