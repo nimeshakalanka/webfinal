@@ -20,11 +20,11 @@
     "swiper": "^11.1.14",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
+    "scripts": {
     "build": "react-scripts build",
+    "start": "react-scripts start",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "install": "npm install --legacy-peer-deps"
   },
   "eslintConfig": {
     "extends": [
